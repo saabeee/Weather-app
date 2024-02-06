@@ -149,12 +149,12 @@ body {
         border-radius: 30px;
         flex: 1;
         margin-right: 0px;
-        font-size: 13px;
+        font-size: 14px;
     }
     .error {
         text-align: left;
         margin-left: 0px;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 10px;
         display: none;
     }
