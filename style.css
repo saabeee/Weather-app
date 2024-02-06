@@ -10,7 +10,6 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 480px;
     background:linear-gradient(135deg,#00feba,#5b548a);
     color: #fff;
     margin: 100px auto 0;
@@ -129,5 +128,12 @@ body{
         margin-right: 0px;
         font-size: 18px;
     
+    }
+    .error{
+        text-align: left;
+        margin-left: 0px;
+        font-size: 14px;
+        margin-top: 10px;
+        display: none;
     }
   }
