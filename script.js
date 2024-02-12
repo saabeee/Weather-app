@@ -5,6 +5,13 @@ const searchbox = document.querySelector(".search input");
 const searchbtn = document.querySelector(".search button");
 const weathericon = document.querySelector(".weather-icon");
 
+function add(){
+    let input=document.getElementById("input")
+    if(input.value===""){
+        alert('Please enter a valid city name.')
+    }
+}
+
 async function checkWeather(city) {
     try {
         const response = await fetch(apiUrl + city);
